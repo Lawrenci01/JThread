@@ -1,6 +1,7 @@
 {
   "name": "backend",
   "version": "1.0.0",
+  "type": "module",
   "scripts": {
     "dev": "cross-env NODE_ENV=development nodemon backend/server.js",
     "start": "NODE_ENV=production node backend/server.js",
