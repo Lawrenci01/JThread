@@ -15,7 +15,8 @@ app.use(cors());
 dotenv.config();
 
 connectDB();
-job.start();
+// Remove the cron job or any job reference here
+// job.start(); // Commented out or deleted
 
 const PORT = process.env.PORT || 3006;
 const __dirname = path.resolve();
